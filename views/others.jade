@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.wrapper
+    header.header
+      h1= title
+    div.middle
+        div.container
+          main.content
+            p Welcome to #{title}
+        aside.left-sidebar
+          ul
+            li
+              a(href="/") /home
